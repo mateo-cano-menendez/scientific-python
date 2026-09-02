@@ -1,2 +1,12 @@
-# scientific-python
-Scientific Python projects and numerical methods for physics.
+# Scientific Python
+
+Scientific computing projects and numerical methods applied to physics.
+
+## Topics
+
+- NumPy
+- SciPy
+- Matplotlib
+- Pandas
+- Numerical methods
+- Data analysis
