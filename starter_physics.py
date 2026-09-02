@@ -1,4 +1,5 @@
 import numpy as np
 x=np.linspace(0, 10, 100)
-y=np.sin(X)
+y=np.sin(x)
 print (y)
+print("Checking program")
