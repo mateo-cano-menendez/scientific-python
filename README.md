@@ -51,6 +51,20 @@ Multi-component Gaussian fitting algorithm for resolving overlapping spectral pe
 ### 📊 Results & Visualization
 ![Spectroscopy Deconvolution](pectroscopy_deconvolution.png)
 
+---
+
+### 4. Molecular Dynamics & Lennard-Jones Potential Simulation (`lennard_jones_md.py`)
+A 2D Molecular Dynamics (MD) simulation using the Verlet integration algorithm to model interatomic interactions, non-bonded Van der Waals forces, and energy conservation principles in Biophysics and Physical Chemistry.
+
+* **Biophysics & Chemistry Focus:** Pairwise Lennard-Jones 12-6 potential and phase-space trajectory tracking.
+* **Key Features:**
+  * Velocity-Verlet integration scheme for solving Newton's equations of motion.
+  * Real-time calculation of interatomic forces ($F = -\nabla V$).
+  * Energy conservation analysis (Kinetic, Potential, and Total System Energy).
+
+### 📊 Results & Visualization
+![Lennard Jones Energy Conservation](lennard_jones_energy.png)
+
 ## 🛠️ Tech Stack & Dependencies
 * **Python 3.x**
 * **NumPy** - Numerical operations & synthetic data generation
