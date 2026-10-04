@@ -80,6 +80,20 @@ Finite Difference Method solver for the 1D Schrödinger equation. Computes energ
 
 ### 📊 Results & Visualization
 ![Quantum Tunneling](quantum_tunneling.png)
+
+---
+
+### 1. Stefan-Boltzmann Law & Blackbody Radiation Real Experimental Data (`stefan_boltzmann_lab.py`)
+Processing and linear regression analysis of real experimental thermal radiation data ($P$ vs $T^4$ and $\ln(P-P_0)$ vs $\ln(T)$) collected during Laboratory Practice P8 (UV/USC Double Degree in Physics & Chemistry).
+
+* **Physics Model:** Stefan-Boltzmann Radiation Law ($P = \sigma \cdot S \cdot T^4$).
+* **Key Features:**
+  * Experimental validation of temperature exponent ($n = 4.0124$, matching theoretical predictions with $R^2 = 0.9994$).
+  * Least-squares linear regression using `scipy.stats.linregress`.
+  * Multi-panel publication-ready plotting of experimental curves.
+
+### 📊 Results & Visualization (Real Lab Data)
+![Stefan Boltzmann Real Data](stefan_boltzmann_lab.png)
 ## 🛠️ Tech Stack & Dependencies
 * **Python 3.x**
 * **NumPy** - Numerical operations & synthetic data generation
