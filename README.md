@@ -25,6 +25,19 @@ A Python implementation for analyzing experimental Current-Voltage (I-V) charact
 
 ---
 
+### 2. Quantum Key Distribution (QKD) Simulator (`qkd_simulation.py`)
+A simulation of the BB84 protocol for quantum cryptography, demonstrating the impact of photon interception and Quantum Bit Error Rate (QBER) detection.
+
+* **Quantum Principles:** Photon polarization state measurement and base mismatch.
+* **Key Features:**
+  * Sifting process algorithm comparing random Alice/Bob measurement bases.
+  * Eavesdropper (Eve) detection through QBER calculation.
+  * Comparative statistical plotting of security metrics.
+
+### 📊 Results & Visualization
+![QKD Simulation](qkd_simulation.png)
+
+
 ## 🛠️ Tech Stack & Dependencies
 * **Python 3.x**
 * **NumPy** - Numerical operations & synthetic data generation
