@@ -37,6 +37,19 @@ A simulation of the BB84 protocol for quantum cryptography, demonstrating the im
 ### 📊 Results & Visualization
 ![QKD Simulation](qkd_simulation.png)
 
+---
+
+### 3. Spectroscopic Peak Deconvolution & Line-Shape Analysis (`spectroscopy_deconvolution.py`)
+Multi-component Gaussian fitting algorithm for resolving overlapping spectral peaks in Physical Chemistry and Materials Science (applicable to Raman, FTIR, and XRD data).
+
+* **Physical Chemistry Focus:** Deconvolution of overlapping vibrational/electronic modes and baseline correction.
+* **Key Features:**
+  * Non-linear parameter optimization using `scipy.optimize.curve_fit`.
+  * Decomposition of overlapping signals into individual spectral bands.
+  * Publication-quality spectroscopic plotting with isolated peak components.
+
+### 📊 Results & Visualization
+![Spectroscopy Deconvolution](pectroscopy_deconvolution.png)
 
 ## 🛠️ Tech Stack & Dependencies
 * **Python 3.x**
