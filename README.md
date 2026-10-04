@@ -1,6 +1,6 @@
 # ☀️ Scientific Python
 
-Scientific computing projects and numerical methods applied to physics and materials science.
+Scientific computing projects and numerical methods applied to physics, chemistry and materials science.
 
 ## Topics
 - **NumPy**
