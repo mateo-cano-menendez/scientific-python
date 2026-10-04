@@ -65,6 +65,21 @@ A 2D Molecular Dynamics (MD) simulation using the Verlet integration algorithm t
 ### 📊 Results & Visualization
 ![Lennard Jones Energy Conservation](lennard_jones_energy.png)
 
+---
+
+### 4. Molecular Dynamics & Lennard-Jones Potential Simulation (`lennard_jones_md.py`)
+2D Molecular Dynamics (MD) simulation using Velocity-Verlet integration to model interatomic forces, Van der Waals interactions, and energy conservation in Biophysics.
+
+### 📊 Results & Visualization
+![Lennard Jones Energy Conservation](lennard_jones_energy.png)
+
+---
+
+### 5. 1D Time-Independent Schrödinger Equation & Quantum Tunneling (`schrodinger_tunneling.py`)
+Finite Difference Method solver for the 1D Schrödinger equation. Computes energy eigenvalues and wavefunctions to illustrate Quantum Tunneling through a finite potential barrier.
+
+### 📊 Results & Visualization
+![Quantum Tunneling](quantum_tunneling.png)
 ## 🛠️ Tech Stack & Dependencies
 * **Python 3.x**
 * **NumPy** - Numerical operations & synthetic data generation
