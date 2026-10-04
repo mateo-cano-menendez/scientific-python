@@ -84,7 +84,7 @@ Finite Difference Method solver for the 1D Schrödinger equation. Computes energ
 ---
 
 ### 1. Stefan-Boltzmann Law & Blackbody Radiation Real Experimental Data (`stefan_boltzmann_lab.py`)
-Processing and linear regression analysis of real experimental thermal radiation data ($P$ vs $T^4$ and $\ln(P-P_0)$ vs $\ln(T)$) collected during Laboratory Practice P8 (UV/USC Double Degree in Physics & Chemistry).
+Processing and linear regression analysis of real experimental thermal radiation data ($P$ vs $T^4$ and $\ln(P-P_0)$ vs $\ln(T)$) collected during Laboratory Practice P8 (UV Double Degree in Physics & Chemistry).
 
 * **Physics Model:** Stefan-Boltzmann Radiation Law ($P = \sigma \cdot S \cdot T^4$).
 * **Key Features:**
